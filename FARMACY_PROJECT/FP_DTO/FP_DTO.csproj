@@ -41,7 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BOLETA_DTO.cs" />
+    <Compile Include="CATEGORIA_DTO.cs" />
+    <Compile Include="CLIENTE_DTO.cs" />
+    <Compile Include="DETALLE_ORDEN_PEDIDO_DTO.cs" />
+    <Compile Include="DISTRITO_DTO.cs" />
+    <Compile Include="EMPLEADO_DTO.cs" />
+    <Compile Include="ORDEN_PEDIDO_DTO.cs" />
+    <Compile Include="PRESENTACION_DTO.cs" />
+    <Compile Include="PRODUCTO_DTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PROVEEDOR_DTO.cs" />
+    <Compile Include="USUARIO_DTO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
