@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="42203791f9f34373b66d03cee58fff9f" Name="Diagram1">
+        <EntityTypeShape EntityType="FarmaciaModel.Boleta" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Categoria" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Cliente" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.DetalleOrdenPedido" Width="1.5" PointX="7.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Distrito" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Empleado" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.OrdenPedido" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Presentacion" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Producto" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Proveedor" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FarmaciaModel.Usuario" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="FarmaciaModel.pk_or_pedi" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_cate" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_cli" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_clis" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_dis_cli" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_pro" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_dis" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_dis_pro" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_empl" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_emple" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_enpL" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_presentacion" ManuallyRouted="false" />
+        <AssociationConnector Association="FarmaciaModel.pk_cod_prove" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
